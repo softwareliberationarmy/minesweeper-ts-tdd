@@ -1,3 +1,8 @@
 export function App() {
-  return <div>Minesweeper</div>;
+  return (
+    <>
+      <h1>Minesweeper</h1>
+      <button>New Game</button>
+    </>
+  );
 }
