@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GameBoard } from "./GameBoard";
+import "./App.css";
 
 export function App() {
   const [showBoard, setShowBoard] = useState(false);
@@ -9,10 +10,12 @@ export function App() {
   };
 
   return (
-    <>
+    <div className="Minesweeper">
       <h1>Minesweeper</h1>
-      <button onClick={() => startNewGame()}>New Game</button>
+      <button className="NewGame" onClick={() => startNewGame()}>
+        New Game
+      </button>
       {showBoard && <GameBoard />}
-    </>
+    </div>
   );
 }

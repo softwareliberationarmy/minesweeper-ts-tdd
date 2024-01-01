@@ -5,19 +5,37 @@ export function GameBoard() {
     <table data-testid="gameBoard">
       <tbody>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
+          <td>
+            <button />
+          </td>
         </tr>
       </tbody>
     </table>

@@ -1,0 +1,15 @@
+.Minesweeper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    table {
+        border: 1px solid black;
+    }
+
+    .NewGame {
+        margin: 10px;
+    }
+}
