@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GameBoard } from "./GameBoard";
+import { GameBoard } from "./GameBoard/GameBoard";
 import "./App.css";
 
 export function App() {

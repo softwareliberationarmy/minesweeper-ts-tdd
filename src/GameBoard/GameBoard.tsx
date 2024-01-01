@@ -1,4 +1,5 @@
 import React from "react";
+import { GameBoardCell } from "./GameBoardCell";
 
 export function GameBoard() {
   return (
@@ -6,35 +7,35 @@ export function GameBoard() {
       <tbody>
         <tr>
           <td>
-            <button />
+            <GameBoardCell />
           </td>
           <td>
-            <button />
+            <GameBoardCell />
           </td>
           <td>
-            <button />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button />
-          </td>
-          <td>
-            <button />
-          </td>
-          <td>
-            <button />
+            <GameBoardCell />
           </td>
         </tr>
         <tr>
           <td>
-            <button />
+            <GameBoardCell />
           </td>
           <td>
-            <button />
+            <GameBoardCell />
           </td>
           <td>
-            <button />
+            <GameBoardCell />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <GameBoardCell />
+          </td>
+          <td>
+            <GameBoardCell />
+          </td>
+          <td>
+            <GameBoardCell />
           </td>
         </tr>
       </tbody>
